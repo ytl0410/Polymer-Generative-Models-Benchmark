@@ -32,7 +32,9 @@ python scripts/train_polymer.py aae --device cuda:0 --model_save checkpoint_aae/
 ```
 
 # Use the trained AAE model to generate hypothetical polymer structures.
+```
 python scripts/sample.py aae --model_load checkpoint_aae/model.pt --vocab_load checkpoint_aae/vocab.pt --config_load checkpoint_aae/config.pt --n_samples 10000000 --gen_save checkpoint_aae/aae_gene_10m.csv
+```
 
 # Train a VAE model.
 ```
