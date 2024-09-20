@@ -1,12 +1,12 @@
 # Download the Moses Docker image.
-# You can choose the official version.
 ```
 docker pull molecular sets/moses
 ```
 
 # Create a container.
+```
 nvidia-docker run -it --name moses --network="host" --shm-size 10G molecularsets/moses
-
+```
 
 # Copy files from the local machine to the Moses Docker container.
 docker cp /home/data1/ytl/BenchmarkInverse/PolyInfo_BigSMILES_train.csv 5cb4325a3cdf:/moses/data/PolyInfo_BigSMILES_train.csv
