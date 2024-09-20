@@ -14,6 +14,7 @@ docker cp /Your address/PolyInfo_train.csv 5cb4325a3cdf:/moses/data/PolyInfo_tra
 docker cp /Your address/PolyInfo_train.csv 5cb4325a3cdf:/moses/data/PolyInfo_test.csv
 docker cp /Your address/PolyInfo_train.csv 5cb4325a3cdf:/moses/scripts/train_polymer.py
 ```
+The PolyInfo dataset can be found here (`PolyInfo_train.csv` and `PolyInfo_test.csv`), the PubChem and GDB-13 datasets can be downloaded from: https://zenodo.org/records/13821449.
 
 # Load the Moses Docker container.
 ```
