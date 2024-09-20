@@ -11,3 +11,5 @@ python ./train_model.py -i PI/models/model.empty -o PI/models/model.trained -s t
 ```
 python ./sample_from_model.py -m PI/models/model.trained.100 -o PI_10m_Reinvent.csv -n 10000000
 ```
+
+# Train a GraphINVENT model.
