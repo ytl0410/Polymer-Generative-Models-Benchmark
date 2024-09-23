@@ -25,3 +25,14 @@ python [Your address]/Reinvent-master/input.py REINVENT_RL.json
 
 # Train a GraphINVENT model with Reinforcement Learning
 
+Please refer to https://github.com/olsson-group/RL-GraphINVENT to install GraphINVENT for reinforcement learning.
+
+Before using reinforcement learning to train GraphINVENT, it is necessary to pretrain a GraphINVENT model：
+```
+python submitPT_PI_tr.py
+```
+
+Start reinforcement learning in the `rl-graphinvent` environment using
+```
+submitFT_PI_tr.py
+```
