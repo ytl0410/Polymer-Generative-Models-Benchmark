@@ -1,0 +1,62 @@
+{
+    "logging": {
+        "job_id": "Tg",
+        "job_name": "Tg",
+        "logging_frequency": 10,
+        "logging_path": "[Your adddress]/ReinventCommunity-master/progress.log",
+        "recipient": "local",
+        "result_folder": "[Your adddress]/ReinventCommunity-master/results",
+        "sender": "http://127.0.0.1"
+    },
+    "model_type": "default",
+    "parameters": {
+        "diversity_filter": {
+            "minscore": 0.4,
+            "minsimilarity": 0.4,
+            "name": "ScaffoldSimilarity",
+            "nbmax": 25
+        },
+        "inception": {
+            "memory_size": 100,
+            "sample_size": 100,
+            "smiles": []
+        },
+        "reinforcement_learning": {
+            "agent": "[Your adddress]/models/Tg_model.prior.30",
+            "batch_size": 2048,
+            "learning_rate": 0.0001,
+            "margin_threshold": 50,
+            "n_steps": 1500,
+            "prior": "[Your adddress]/models/Tg_model.prior.30",
+            "sigma": 128
+        },
+        "scoring_function": {
+            "name": "custom_product",
+            "parallel": false,
+            "parameters": [
+                {
+                    "component_type": "predictive_property",
+                    "name": "Regression model",
+                    "specific_parameters": {
+                        "descriptor_type": "ecfp",
+                        "model_path": "[Your adddress]/models/Tg_1.pkl",
+                        "radius": 3,
+                        "scikit": "regression",
+                        "size": 1024,
+                        "transformation": {
+                            "high": 400,
+                            "k": 0.25,
+                            "low": -50,
+                            "transformation_type": "sigmoid"
+                        },
+                        "use_counts": false,
+                        "use_features": false
+                    },
+                    "weight": 10
+                }
+            ]
+        }
+    },
+    "run_type": "reinforcement_learning",
+    "version": 3
+}
