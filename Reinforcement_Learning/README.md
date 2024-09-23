@@ -22,3 +22,6 @@ After modifying all the address information in the script, you can start reinfor
 ```
 python [Your address]/Reinvent-master/input.py REINVENT_RL.json
 ```
+
+# Train a GraphINVENT model with Reinforcement Learning
+
