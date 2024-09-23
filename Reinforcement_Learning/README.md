@@ -36,3 +36,9 @@ Start reinforcement learning in the `rl-graphinvent` environment using
 ```
 submitFT_PI_tr.py
 ```
+
+# Train a CharRNN model with Reinforcement Learning
+
+Please refer to https://github.com/aspuru-guzik-group/Tartarus to install Tartarus.
+
+For training the CharRNN model with Reinforcement Learning, please refer to the `RL_CharRNN.ipynb` notebook.
