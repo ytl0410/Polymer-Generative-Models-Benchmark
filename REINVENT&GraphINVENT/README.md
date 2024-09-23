@@ -13,3 +13,14 @@ python ./sample_from_model.py -m PI/models/model.trained.100 -o PI_10m_Reinvent.
 ```
 
 # Train a GraphINVENT model.
+Please refer to https://github.com/MolecularAI/GraphINVENT to install GraphINVENT. Modify the file paths in the script according to the address of the dataset.
+
+```
+python GI_preprocess.py
+python GI_train.py
+```
+
+# Use the trained GraphINVENT model to generate hypothetical polymer structures.
+```
+python GI_generation.py
+```
