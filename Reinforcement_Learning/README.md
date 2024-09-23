@@ -17,3 +17,8 @@ In addition, a well-trained machine learning (ML) model is required to predict t
 You can directly download and use the 'Tg_1.pkl' model available in this folder.
 Be sure to update the `"model_path"` under `"scoring_function"` in the script accordingly.
 If you wish to apply reinforcement learning to other properties, you will need to train a different model specific to that property.
+
+After modifying all the address information in the script, you can start reinforcement learning in the `reinvent.v3.2` environment using
+```
+python [Your address]/Reinvent-master/input.py REINVENT_RL.json
+```
