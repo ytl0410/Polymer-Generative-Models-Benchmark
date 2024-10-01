@@ -2,7 +2,7 @@
 Please refer to https://github.com/undeadpixel/reinvent-randomized to install REINVENT, or refer to https://github.com/MolecularAI/REINVENT4 to install the latest version of REINVENT.
 
 ```
-mkdir -p PI_BS/models
+mkdir -p PI/models
 python ./create_model.py -i training_sets/PolyInfo.smi -o PI/models/model.empty
 python ./train_model.py -i PI/models/model.empty -o PI/models/model.trained -s training_sets/PolyInfo_train.smi -e 100 --lrm exp --lrg 0.9 --csl PI/tensorboard --csv trained_models/PolyInfo_test.smi --csn 10000
 ```
