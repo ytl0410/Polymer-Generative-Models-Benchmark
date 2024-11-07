@@ -46,6 +46,12 @@ For training the CharRNN model with Reinforcement Learning, please refer to the 
 
 # Glass Transition Temperature Preduction
 Directly use a well-trained model to predict the $T_g$ values for SMILES in a .csv file.
+To run this script, install the necessary dependencies with the following commands:
+```
+!pip install rdkit
+!pip install torch==2.1.0 torchaudio==2.1.0 torchvision==0.16.0
+```
+Run the Script:
 ```
 python prediction.py smiles.csv
 ```
