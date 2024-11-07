@@ -37,8 +37,15 @@ Start reinforcement learning in the `rl-graphinvent` environment using
 submitFT_PI_tr.py
 ```
 
-# Train a CharRNN model with Reinforcement Learning
 
+# Train a CharRNN model with Reinforcement Learning
 Please refer to https://github.com/aspuru-guzik-group/Tartarus to install Tartarus.
 
 For training the CharRNN model with Reinforcement Learning, please refer to the `RL_CharRNN.ipynb` notebook.
+
+
+# Glass Transition Temperature Preduction
+Directly use a well-trained model to predict the $T_g$ values for SMILES in a .csv file.
+```
+python prediction.py smiles.csv
+```
