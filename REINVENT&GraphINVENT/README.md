@@ -4,7 +4,7 @@ Please refer to https://github.com/undeadpixel/reinvent-randomized to install RE
 ```
 mkdir -p PI/models
 python ./create_model.py -i training_sets/PolyInfo.smi -o PI/models/model.empty
-python ./train_model.py -i PI/models/model.empty -o PI/models/model.trained -s training_sets/PolyInfo_train.smi -e 100 --lrm exp --lrg 0.9 --csl PI/tensorboard --csv trained_models/PolyInfo_test.smi --csn 10000
+python ./train_model.py -i PI/models/model.empty -o PI/models/model.trained -s training_sets/PolyInfo_train.smi -e 100 --lrm exp --lrg 0.9 --csl PI/tensorboard --csv training_sets/PolyInfo_test.smi --csn 10000
 ```
 
 # Use the trained REINVENT model to generate hypothetical polymer structures.
