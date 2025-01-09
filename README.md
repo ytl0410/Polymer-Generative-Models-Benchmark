@@ -3,7 +3,7 @@
 Well-trained models and generative outcomes for the paper "Benchmarking Study of Deep Generative Models for Inverse Polymer Design".
 # Well-trained models
 ## Generative models
-AAE,VAE,CHarRNN, ORGAN, and REINVENT models can be found here here and GraphINVENT moddels can be found at: https://zenodo.org/records/12734266
+AAE,VAE,CharRNN, ORGAN, and REINVENT models can be found here here and GraphINVENT moddels can be found at: https://zenodo.org/records/12734266
 ## Reinforcement learning
 Well-trained models for reinforcement learning can be found at https://zenodo.org/records/12728016
 
