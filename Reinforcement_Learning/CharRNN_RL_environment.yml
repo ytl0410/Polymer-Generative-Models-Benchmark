@@ -1,0 +1,29 @@
+name: tartarus
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch
+  - rdkit
+  - openbabel=3.1.1
+  - xtb=6.3.3
+  - xtb-python=20.2
+  - crest=2.12
+  - setuptools
+  - pandas=1.5.3
+  - pip:
+    - numpy
+    - pyscf
+    - morfeus-ml
+    - h5py
+    - scikit-learn
+    - geometric
+    - pyberny
+    - loguru
+    - wurlitzer
+    - sqlalchemy
+    - git+https://github.com/kjelljorner/polanyi
+    - --extra-index-url https://test.pypi.org/simple/ geodesic-interpolate 
+    
