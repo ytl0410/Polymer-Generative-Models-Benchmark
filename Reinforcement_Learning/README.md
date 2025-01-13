@@ -1,6 +1,6 @@
 # Train a REINVENT model with Reinforcement Learning
 
-Please refer to https://github.com/MolecularAI/Reinvent to install REINVENT 3.2.
+Please refer to [https://github.com/MolecularAI/Reinvent](https://github.com/MolecularAI/Reinvent/tree/99b8f28c2a76196017eabf23118195ae546f5714) to install REINVENT 3.2.
 ReinventCommunity (Jupyter notebook tutorials for REINVENT 3.2) is an excellent collection of useful Jupyter notebooks, code snippets, and example JSON files that illustrate how to use REINVENT 3.2.
 
 Before using reinforcement learning to train REINVENT, it is necessary to pretrain a REINVENT model. Please refer to https://github.com/undeadpixel/reinvent-randomized to install REINVENT. And train your model by
@@ -25,7 +25,7 @@ python [Your address]/Reinvent-master/input.py REINVENT_RL.json
 
 # Train a GraphINVENT model with Reinforcement Learning
 
-Please refer to https://github.com/olsson-group/RL-GraphINVENT to install GraphINVENT for reinforcement learning.
+Please refer to [https://github.com/olsson-group/RL-GraphINVENT](https://github.com/olsson-group/RL-GraphINVENT/tree/d4629a3c411c793e1ed1682592d5bf67937564a1) to install GraphINVENT for reinforcement learning.
 
 Before using reinforcement learning to train GraphINVENT, it is necessary to pretrain a GraphINVENT model：
 ```
@@ -39,7 +39,7 @@ submitFT_PI_tr.py
 
 
 # Train a CharRNN model with Reinforcement Learning
-Please refer to https://github.com/aspuru-guzik-group/Tartarus to install Tartarus.
+Please refer to [https://github.com/aspuru-guzik-group/Tartarus](https://github.com/aspuru-guzik-group/Tartarus/tree/b112b811616bee01fb3348e867b7406e4e6a62f4) to install Tartarus.
 
 For training the CharRNN model with Reinforcement Learning, please refer to the `RL_CharRNN.ipynb` notebook.
 
