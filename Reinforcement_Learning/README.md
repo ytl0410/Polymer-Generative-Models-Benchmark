@@ -3,7 +3,7 @@
 Please refer to [https://github.com/MolecularAI/Reinvent](https://github.com/MolecularAI/Reinvent/tree/99b8f28c2a76196017eabf23118195ae546f5714) to install REINVENT 3.2.
 ReinventCommunity (Jupyter notebook tutorials for REINVENT 3.2) is an excellent collection of useful Jupyter notebooks, code snippets, and example JSON files that illustrate how to use REINVENT 3.2.
 
-Before using reinforcement learning to train REINVENT, it is necessary to pretrain a REINVENT model. Please refer to https://github.com/undeadpixel/reinvent-randomized to install REINVENT. And train your model by
+Before using reinforcement learning to train REINVENT, it is necessary to pretrain a REINVENT model. Please refer to [https://github.com/undeadpixel/reinvent-randomized](https://github.com/undeadpixel/reinvent-randomized/tree/2eeca2d73e197943bc7f704022d30eee14c49cb6) to install REINVENT. And train your model by
 
 ```
 mkdir -p PI_BS/models
