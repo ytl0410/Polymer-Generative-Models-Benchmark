@@ -10,9 +10,9 @@ nvidia-docker run -it --name moses --network="host" --shm-size 10G molecularsets
 
 # Copy files from the local machine to the Moses Docker container.
 ```
-docker cp /Your address/PolyInfo_train.csv 5cb4325a3cdf:/moses/data/PolyInfo_train.csv
-docker cp /Your address/PolyInfo_train.csv 5cb4325a3cdf:/moses/data/PolyInfo_test.csv
-docker cp /Your address/PolyInfo_train.csv 5cb4325a3cdf:/moses/scripts/train_polymer.py
+docker cp /Your address/PolyInfo_train.csv [CONTAINER ID]:/moses/data/PolyInfo_train.csv
+docker cp /Your address/PolyInfo_train.csv [CONTAINER ID]:/moses/data/PolyInfo_test.csv
+docker cp /Your address/PolyInfo_train.csv [CONTAINER ID]:/moses/scripts/train_polymer.py
 ```
 The PolyInfo dataset can be found here (`PolyInfo_train.csv` and `PolyInfo_test.csv`), the PubChem and GDB-13 datasets can be downloaded from: https://zenodo.org/records/13821449.
 
