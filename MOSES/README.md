@@ -18,8 +18,8 @@ The PolyInfo dataset can be found here (`PolyInfo_train.csv` and `PolyInfo_test.
 
 # Load the Moses Docker container.
 ```
-docker start moses_t
-docker attach moses_t
+docker start moses
+docker attach moses
 ```
 
 # Train a AAE model.
