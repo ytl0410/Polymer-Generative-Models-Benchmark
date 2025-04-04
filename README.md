@@ -1,5 +1,5 @@
 # Polymer-Generative-Models-Benchmark
-Well-trained models and generative outcomes for the paper "Benchmarking Study of Deep Generative Models for Inverse Polymer Design."
+Well-trained models and generative outcomes for the paper "Benchmarking Study of Deep Generative Models for Inverse Polymer Design." https://pubs.rsc.org/en/content/articlehtml/2025/dd/d4dd00395k
 # Well-trained models
 ## Generative models
 AAE, VAE, CharRNN, ORGAN, and REINVENT models can be found in the `/MOSES` folder, and GraphINVENT models can be found at: https://zenodo.org/records/12734266
