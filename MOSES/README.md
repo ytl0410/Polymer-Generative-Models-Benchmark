@@ -82,7 +82,7 @@ python scripts/train_polymer.py organ --device cuda:0 --model_save checkpoint_or
 python scripts/sample.py organ --model_load checkpoint_organ/model.pt --vocab_load checkpoint_organ/vocab.pt --config_load checkpoint_organ/config.pt --n_samples 10000000 --gen_save checkpoint_organ/organ_gene_10m.csv
 ```
 
-#Evaluate the generation results
+# Evaluate the generation results
 ```
 python scripts/eval.py --test_path PolyInfo_eva/PolyInfo_test.csv --train_path PolyInfo_eva/PolyInfo_train.csv --gen_path PolyInfo_eva/aae_gene_10m.csv > PI_aae.txt
 python scripts/eval.py --test_path PolyInfo_eva/PolyInfo_test.csv --train_path PolyInfo_eva/PolyInfo_train.csv --gen_path PolyInfo_eva/vae_gene_10m.csv > PI_vae.txt
