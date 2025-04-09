@@ -78,7 +78,7 @@ python scripts/train_polymer.py organ --device cuda:0 --model_save checkpoint_or
 ```
 
 # Use the trained ORGAN model to generate hypothetical polymer structures.
-````
+```
 python scripts/sample.py organ --model_load checkpoint_organ/model.pt --vocab_load checkpoint_organ/vocab.pt --config_load checkpoint_organ/config.pt --n_samples 10000000 --gen_save checkpoint_organ/organ_gene_10m.csv
 ```
 
