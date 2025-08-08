@@ -59,7 +59,7 @@ cd checkpoint_char_rnn
 touch vocab.pt
 touch config.pt
 cd ..
-python scripts/train_PolyInfo.py char_rnn --device cuda:0 --model_save checkpoint_char_rnn/model.pt --train_load data/PolyInfo_train.csv --config_save checkpoint_char_rnn/config.pt --vocab_save checkpoint_char_rnn/vocab.pt
+python scripts/train_polymer.py char_rnn --device cuda:0 --model_save checkpoint_char_rnn/model.pt --train_load data/PolyInfo_train.csv --config_save checkpoint_char_rnn/config.pt --vocab_save checkpoint_char_rnn/vocab.pt
 ```
 
 # Use the trained CharRNN model to generate hypothetical polymer structures.
